@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+	<link rel="stylesheet" href="/style.css"/>
+	<script src="https://kit.fontawesome.com/486704de2c.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+	<script src="index.js"></script>
+	<h1>Dara the Great</h1>
+	<canvas id="canvas" width="600px" height="400px"></canvas>
+	<div class="btns">
+
+	  <button class="btn" id="up"><i class="fas fa-chevron-up"></i></button>
+	  <button class="btn" id="down"><i class="fas fa-chevron-down"></i></button>
+	  <button class="btn" id="left"><i class="fas fa-chevron-left"></i></button>
+	  <button class="btn" id="right"><i class="fas fa-chevron-right"></i></button>
+		<button class="btn" id="start">Start</button>
+		<button class="btn" id="reset">Reset</button>
+		<button class="btn" id="aim"></button>
+	</div>
+	<br>
+	
+
+	
+	  <label for="">Intial Velocity</label>
+	  <input type="range" max="200" min="0" value="50" id="slider" step="1" />
+	  <span><button id="INC1">INC</button><button id="DEC1">DEC</button></span>
+	</div>
+
+	<div id="sliderContainer">
+	  <label for="">Angle:</label><br />
+
+	  <input type="range" max="90" min="0" value="45" id="angle" /><span>
+		<button id="INC2">INC</button><button id="DEC2">DEC</button></span
+	  >
+	  <div id="sliderLabels"></div>
+	</div>
+	<div class="anal">
+		<div>Target Position: <span id="target"></span></div>
+		<div>
+			<section>Intial Velocity: <span id="disv"></span></section>
+	<div id="deg"></div>
+	<div id="h"></div>
+	<div id="height"></div>
+	<div id="time"></div>
+	<div id="distance"></div>
+	<div id="peak"></div>
+	<div id="score"></div>
+	</div>
+	<div id="popup-container"><div id="popup">Perfect Shot!</div><div id="close">Close</div></div>
+	
+  </body>
+</html>

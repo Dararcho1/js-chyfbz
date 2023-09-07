@@ -1,0 +1,90 @@
+canvas {
+  background-image: url("https://thumbs.dreamstime.com/b/fully-minimalistic-simple-empty-meadow-green-fields-landscape-great-design-any-purposes-cartoon-vector-illustration-154081333.jpg");
+  margin-left: 20%;
+  }
+  #slider {
+    width: 550px;
+  }
+  #angle {
+    width: 550px;
+  }
+  #sliderContainer {
+    position: relative;
+    
+  }
+  .anal{
+    margin-top: 10px;
+  }
+#start{
+  color: white;
+  background-color: blue;
+  border: 3px outset blue;
+  font-weight: 600;
+}
+#reset{
+  color: white;
+  background-color: red;
+  border: 3px outset red;
+  font-weight: 600;
+}
+#aim{
+  width: auto;
+  background-color: black;
+  color: white;
+  border: 3px outset black;
+}
+.btns{
+  display: flex;
+  justify-content: center;
+}
+
+  .btn{
+    border-radius: 0%;
+
+    height: 30px;
+    width: 60px;
+    border: 3px outset greenyellow;
+    background-color: chartreuse;
+    color: black;
+
+
+  }
+  #sliderLabels {
+    position: absolute;
+    bottom: px;
+    left: 0;
+    width: 550px; /* Set the width of the labels container to match the slider width */
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    color: gray;
+    margin-left: 0px;
+  }
+  h1{
+    text-align: center;
+  }
+  #popup-container{
+    background-color: antiquewhite;
+    width: 200px;
+    height: 150px;
+    position: absolute;
+    top: 30%;
+    left: 40%;
+    border: 7px ridge;
+    
+  }
+  #popup{
+    color: brown;
+    width: 90px;
+    position: relative;
+    left:30% ;
+    top:45%;
+  }
+  #close{
+    background-color: cornflowerblue;
+    padding: 0 75px;
+    position: relative;
+    top: 73%;
+    border-top: 2px solid coral;
+  }
+  
