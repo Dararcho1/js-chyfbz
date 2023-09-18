@@ -3,7 +3,7 @@ import './style.css';
 var canvas = document.getElementById('canvas');
 var context = canvas.getContext('2d');
 const img = new Image();
-img.src = 'https://static.wikia.nocookie.net/angrybirds/images/3/31/Red.png';
+img.src = 'https://static.wikia.nocookie.net/angrybirds/images/3/31/Red.png/';
 /*var cnv=document.getElementById("cnv")
 var ctx=cnv.getContext("2d")*/
 var popup=document.getElementById("popup-container")
